@@ -21,4 +21,14 @@ public class ProfilActivity extends AppCompatActivity {
         Intent intent = new Intent(ProfilActivity.this, MainActivity.class);
         ProfilActivity.this.startActivity(intent);
     }
+
+    public void displayCharacter(View view) {
+        Intent intent = new Intent(ProfilActivity.this, Personnage.class);
+        ProfilActivity.this.startActivity(intent);
+    }
+
+    public void displayBackpack(View view) {
+        Intent intent = new Intent(ProfilActivity.this, Inventaire.class);
+        ProfilActivity.this.startActivity(intent);
+    }
 }

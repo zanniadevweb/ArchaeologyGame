@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // afficher profil
-    public void displayProfil(View view) {
+    public void displayProfile(View view) {
         Intent intent = new Intent(MainActivity.this, ProfilActivity.class);
         MainActivity.this.startActivity(intent);
     }

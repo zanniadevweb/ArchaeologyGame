@@ -59,6 +59,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     // --------------------- Dépendances propres à Android Studio -------------------- //
 
+    // --------------------- Dépendances pour utiliser les Gifs -------------------- //
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    // --------------------- Dépendances pour utiliser les Gifs -------------------- //
+
     // --------------------- Dépendances propres à libGDX -------------------- //
     api "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
     api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
