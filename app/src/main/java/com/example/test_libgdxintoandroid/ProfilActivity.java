@@ -28,7 +28,7 @@ public class ProfilActivity extends AppCompatActivity {
     }
 
     public void displayBackpack(View view) {
-        Intent intent = new Intent(ProfilActivity.this, Inventaire.class);
+        Intent intent = new Intent(ProfilActivity.this, Findings.class);
         ProfilActivity.this.startActivity(intent);
     }
 }

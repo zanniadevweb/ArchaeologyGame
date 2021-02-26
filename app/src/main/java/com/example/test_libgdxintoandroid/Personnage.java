@@ -10,7 +10,7 @@ import androidx.viewpager.widget.ViewPager;
 import java.util.ArrayList;
 
 public class Personnage extends AppCompatActivity {
-
+/*
     //creating object of ViewPager
     ViewPager mViewPagerTorso;
 
@@ -76,5 +76,5 @@ public class Personnage extends AppCompatActivity {
     public void displayProfile(View view) {
         Intent intent = new Intent(Personnage.this, ProfilActivity.class);
         Personnage.this.startActivity(intent);
-    }
+    }*/
 }
